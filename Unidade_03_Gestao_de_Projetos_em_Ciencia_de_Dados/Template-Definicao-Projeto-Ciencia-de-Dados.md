@@ -144,115 +144,128 @@ Registre suposições que serão investigadas, sem apresentá-las como conclusõ
 
 | Conjunto ou fonte de dados | Variáveis principais | Formato | Acesso / responsável | Qualidade esperada |
 |---|---|---|---|---|
-| | | | | |
-| | | | | |
-| | | | | |
+| Registros de acionamento de botões de pânico | Data e horário do acionamento, localidade, quantidade de acionamentos e identificador anonimizado da usuária | CSV, XLSX ou dados disponibilizados em painéis/relatórios oficiais | Tribunais de Justiça, Secretarias de Segurança Pública e demais órgãos estaduais responsáveis pelos programas | Média/Alta, dependendo da disponibilidade e padronização dos dados |
+| Painel de Dados do Ligue 180 | Quantidade de denúncias, período, localidade, tipo de violência, perfil da vítima, relação com o suspeito e demais características disponíveis | Painel público / dados agregados | Ministério das Mulheres | Alta, por se tratar de fonte oficial |
+| Registros de ocorrências e medidas protetivas | Quantidade de ocorrências, descumprimentos de medidas protetivas, região e período | Dados abertos, relatórios ou painéis institucionais | Órgãos de Segurança Pública e Poder Judiciário | Média/Alta, podendo existir diferenças de padronização entre estados |
 
 ### 8.1 Avaliação inicial dos dados
 
-- **Disponibilidade:** __________________________________________________________
-- **Volume e período coberto:** __________________________________________________
-- **Dados ausentes, duplicados ou inconsistentes previstos:** ______________________
-- **Necessidade de integração entre fontes:** _____________________________________
-- **Restrições legais, contratuais ou institucionais:** _____________________________
+- **Disponibilidade:** Há dados públicos sobre violência contra a mulher disponibilizados por órgãos governamentais, especialmente por meio do Painel de Dados do Ligue 180. Os dados específicos sobre acionamentos de botões de pânico dependem da disponibilidade dos órgãos estaduais e do Poder Judiciário responsáveis pelos respectivos programas.
+- **Volume e período coberto:** O projeto priorizará registros referentes ao ano de 2025. Poderão ser utilizados dados de períodos anteriores apenas para contextualização e comparação.
+- **Dados ausentes, duplicados ou inconsistentes previstos:** É possível encontrar registros incompletos, diferenças na nomenclatura das variáveis, duplicidades e ausência de informações específicas, especialmente devido à utilização de fontes provenientes de diferentes órgãos.
+- **Necessidade de integração entre fontes:** Sim. Poderá ser necessário integrar dados de acionamentos dos botões de pânico com informações sobre violência contra a mulher, medidas protetivas e registros de atendimento.
+- **Restrições legais, contratuais ou institucionais:** O projeto utilizará prioritariamente dados públicos, agregados e anonimizados. Informações capazes de identificar vítimas não serão utilizadas ou divulgadas.
 
 ### 8.2 Privacidade, ética e segurança
 
-- [ ] A equipe verificou se há dados pessoais ou sensíveis.
-- [ ] A coleta e o uso dos dados possuem finalidade legítima e explícita.
-- [ ] O acesso será limitado às pessoas autorizadas.
-- [ ] Dados pessoais serão minimizados, anonimizados ou pseudonimizados quando necessário.
-- [ ] Possíveis vieses e impactos sobre grupos serão analisados.
-- [ ] A divulgação dos resultados evitará reidentificação ou exposição indevida.
+- [x] A equipe verificou se há dados pessoais ou sensíveis.
+- [x] A coleta e o uso dos dados possuem finalidade legítima e explícita.
+- [x] O acesso será limitado às pessoas autorizadas.
+- [x] Dados pessoais serão minimizados, anonimizados ou pseudonimizados quando necessário.
+- [x] Possíveis vieses e impactos sobre grupos serão analisados.
+- [x] A divulgação dos resultados evitará reidentificação ou exposição indevida.
 
 **Cuidados específicos deste projeto:**
 
-________________________________________________________________________________
+Por envolver mulheres em situação de violência, os dados utilizados serão tratados com atenção especial à privacidade e à segurança. O projeto não pretende identificar vítimas individualmente. Identificadores pessoais, endereços exatos, telefones, documentos, imagens ou qualquer informação que permita reidentificação serão excluídos ou anonimizados. Os resultados serão apresentados preferencialmente de forma agregada.
+
+A preocupação com privacidade e proteção das informações também se relaciona diretamente ao TCC integrado ao projeto, que propõe uma solução tecnológica voltada à proteção e preservação segura de evidências produzidas por mulheres em situação de risco.
+
 
 ## 9. Escopo do projeto
 
 | Dentro do escopo | Fora do escopo |
 |---|---|
-| | |
-| | |
-| | |
+| Analisar dados referentes à violência contra mulheres e acionamentos de botões de pânico no ano de 2025. | Identificar individualmente mulheres vítimas de violência. |
+| Quantificar os acionamentos encontrados nas bases disponíveis. | Realizar investigação criminal ou jurídica sobre casos específicos. |
+| Identificar padrões por mês, dia da semana, horário e localidade, quando as variáveis estiverem disponíveis. | Afirmar causalidade entre o uso do botão de pânico e a redução de feminicídios sem dados suficientes para essa conclusão. |
+| Analisar reincidência de acionamentos por identificadores anonimizados, quando disponível. | Acessar ou divulgar dados pessoais e sensíveis das vítimas. |
+| Analisar tempo de resposta e desfecho das ocorrências, caso essas informações estejam disponíveis. | Desenvolver, nesta disciplina, todas as funcionalidades do aplicativo proposto no TCC. |
+| Relacionar os resultados encontrados ao contexto e às necessidades que fundamentam o TCC integrado. | Substituir sistemas oficiais de emergência, denúncia ou atendimento policial. |
 
-**Restrições conhecidas:** tempo, acesso a dados, ferramentas, infraestrutura, conhecimento técnico ou normas.
+**Restrições conhecidas:** O principal fator limitante é a disponibilidade de dados específicos e padronizados sobre acionamentos de botões de pânico em todo o território nacional. Como os programas podem ser administrados por diferentes órgãos estaduais ou municipais, poderá existir diferença na estrutura e no nível de detalhamento das bases. O tempo disponível para execução da disciplina também limita a coleta e integração de múltiplas fontes.
 
-________________________________________________________________________________
 
 ## 10. Resultados e entregáveis previstos
 
 | Entregável | Descrição | Formato | Responsável | Critério de aceite |
 |---|---|---|---|---|
-| Base tratada | | | | |
-| Análise exploratória | | | | |
-| Visualizações / painel | | | | |
-| Relatório ou apresentação | | | | |
-| Outro | | | | |
+| Base tratada | Consolidação, limpeza, padronização e anonimização dos dados coletados. | CSV / DataFrame | Equipe | Base sem duplicidades relevantes e adequada para análise. |
+| Análise exploratória | Análise estatística dos acionamentos e demais variáveis disponíveis. | Jupyter Notebook / Google Colab | Equipe | Indicadores capazes de responder às perguntas de negócio e hipóteses possíveis. |
+| Visualizações / painel | Gráficos com distribuição temporal, geográfica, frequência e demais padrões identificados. | Dashboard ou gráficos | Equipe | Visualizações claras e coerentes com os dados analisados. |
+| Relatório ou apresentação | Síntese do problema, metodologia, resultados, limitações e conclusões. | PDF / apresentação | Equipe | Documento compreensível e fundamentado nos resultados obtidos. |
+| Integração com o TCC | Relacionar os padrões encontrados às necessidades e ao contexto das mulheres que constituem o público-alvo da solução proposta no TCC. | Seção do relatório/apresentação | Equipe | Relação fundamentada entre os dados analisados e o problema tratado no TCC. |
+
 
 ## 11. Critérios de sucesso
 
-Defina como a equipe saberá se o projeto alcançou seus objetivos.
-
 | Critério | Indicador ou evidência | Meta | Forma de verificação |
 |---|---|---|---|
-| Relevância para o problema | | | |
-| Qualidade dos dados | | | |
-| Qualidade da análise | | | |
-| Utilidade para o público-alvo | | | |
-| Comunicação dos resultados | | | |
+| Relevância para o problema | Capacidade dos resultados de caracterizar o contexto estudado | Responder à maioria das perguntas de negócio compatíveis com os dados obtidos | Comparação entre perguntas propostas e resultados alcançados |
+| Qualidade dos dados | Registros tratados e inconsistências documentadas | Tratar duplicidades, valores ausentes e inconsistências relevantes | Validação da base após preparação |
+| Qualidade da análise | Indicadores e padrões identificados | Testar as hipóteses possíveis com as variáveis disponíveis | Notebook e resultados estatísticos |
+| Utilidade para o público-alvo | Identificação de padrões relevantes para proteção das mulheres | Produzir informações que possam apoiar a compreensão dos contextos de maior vulnerabilidade | Discussão dos resultados |
+| Comunicação dos resultados | Clareza das visualizações e conclusões | Apresentar resultados de maneira objetiva, ética e compreensível | Avaliação do relatório, painel e apresentação |
+
 
 ## 12. Plano inicial de trabalho
 
 | Etapa | Atividades principais | Responsável(is) | Prazo | Dependências |
 |---|---|---|---|---|
-| 1. Definição | | | | |
-| 2. Obtenção dos dados | | | | |
-| 3. Preparação dos dados | | | | |
-| 4. Análise / modelagem | | | | |
-| 5. Validação | | | | |
-| 6. Comunicação | | | | |
+| 1. Definição | Delimitação do problema, objetivos, perguntas de negócio e hipóteses | Raquel e Andressa | Concluído | Definição do tema |
+| 2. Obtenção dos dados | Pesquisa, seleção e coleta de bases oficiais | Raquel e Andressa | A definir | Disponibilidade das fontes |
+| 3. Preparação dos dados | Limpeza, padronização, tratamento de valores ausentes e anonimização | Raquel e Andressa | A definir | Obtenção dos dados |
+| 4. Análise / modelagem | Análise exploratória, cálculo de indicadores e teste das hipóteses | Raquel e Andressa | A definir | Base tratada |
+| 5. Validação | Conferência dos resultados, limitações e coerência das conclusões | Raquel e Andressa | A definir | Análises concluídas |
+| 6. Comunicação | Construção das visualizações, relatório e apresentação final | Raquel e Andressa | A definir | Validação dos resultados |
+
 
 ## 13. Riscos do projeto
 
 | Risco | Probabilidade | Impacto | Estratégia de resposta | Responsável |
 |---|---|---|---|---|
-| | Baixa / Média / Alta | Baixo / Médio / Alto | | |
-| | Baixa / Média / Alta | Baixo / Médio / Alto | | |
-| | Baixa / Média / Alta | Baixo / Médio / Alto | | |
+| Indisponibilidade de dados específicos sobre acionamentos de botões de pânico | Alta | Alto | Utilizar fontes estaduais disponíveis e complementar a contextualização com bases oficiais sobre violência contra mulheres, registrando a limitação metodológica | Equipe |
+| Diferenças de estrutura e padronização entre fontes | Alta | Médio | Padronizar campos e documentar os critérios utilizados na integração | Equipe |
+| Presença de dados incompletos ou ausentes | Alta | Médio | Realizar análise de qualidade e trabalhar apenas com indicadores suportados pelas informações disponíveis | Equipe |
+| Risco de exposição de dados sensíveis | Baixa | Alto | Utilizar somente dados públicos, agregados ou anonimizados e impedir a divulgação de identificadores pessoais | Equipe |
+| Impossibilidade de medir diretamente "vidas salvas" | Média | Alto | Não interpretar acionamento ou atendimento como vida salva sem evidência de desfecho; utilizar indicadores alternativos quando necessário | Equipe |
+
 
 ## 14. Organização da equipe
 
 | Integrante | Papel principal | Responsabilidades | Apoio necessário |
 |---|---|---|---|
-| | | | |
-| | | | |
-| | | | |
-| | | | |
+| Raquel Caetano Nascimento | Coleta, tratamento e análise de dados | Pesquisa das fontes, preparação das bases, análise exploratória, construção de indicadores e integração dos resultados com o TCC | Validação conjunta das análises e fontes |
+| Andressa Cristyna Araújo Gomes | Pesquisa, análise e documentação | Levantamento de fontes, apoio na preparação e interpretação dos dados, documentação e construção das visualizações | Validação conjunta das análises e resultados |
+
+As atividades poderão ser compartilhadas entre as integrantes de acordo com a disponibilidade, complexidade das bases encontradas e necessidades identificadas durante o desenvolvimento.
+
 
 ## 15. Validação da definição do projeto
 
 Antes da entrega, confirme:
 
-- [ ] O problema é real, relevante e delimitado.
-- [ ] O público-alvo e as partes interessadas estão identificados.
-- [ ] O objetivo geral e os objetivos específicos são coerentes.
-- [ ] As perguntas de negócio orientam decisões concretas.
-- [ ] Há dados potencialmente disponíveis para responder às perguntas.
-- [ ] O escopo é compatível com o prazo e os recursos.
-- [ ] Os critérios de sucesso são mensuráveis.
-- [ ] Riscos, privacidade, ética e segurança foram considerados.
-- [ ] Funções e responsabilidades foram distribuídas.
+- [x] O problema é real, relevante e delimitado.
+- [x] O público-alvo e as partes interessadas estão identificados.
+- [x] O objetivo geral e os objetivos específicos são coerentes.
+- [x] As perguntas de negócio orientam decisões concretas.
+- [x] Há dados potencialmente disponíveis para responder às perguntas.
+- [x] O escopo é compatível com o prazo e os recursos.
+- [x] Os critérios de sucesso são mensuráveis.
+- [x] Riscos, privacidade, ética e segurança foram considerados.
+- [x] Funções e responsabilidades foram distribuídas.
+
 
 ## 16. Aprovação e registro de ajustes
 
 | Responsável | Validação / observação | Data |
 |---|---|---|
-| Representante da equipe | | |
-| Professor(a) / orientador(a) | | |
+| Representante da equipe | Documento revisado pela equipe e considerado adequado para início das etapas de obtenção e análise dos dados. | A definir |
+| Professor(a) / orientador(a) | Aguardando validação. | A definir |
 
 ### Ajustes solicitados após a apresentação inicial
+
+Espaço reservado para registro das orientações e ajustes solicitados pela professora após a apresentação inicial.
 
 ________________________________________________________________________________
 
