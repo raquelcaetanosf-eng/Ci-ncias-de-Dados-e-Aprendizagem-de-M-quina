@@ -9,9 +9,9 @@ Ciência de Dados e Aprendizado de Máquina · Sistemas de Informação · 2026.
 ## Identificação
 
 - Estudante ou equipe: **Raquel Caetano Nascimento**
-- Turma: **Sistemas de Informação — 2026.2 (confirmar turma específica)**
+- Turma: **Sistemas de Informação — 2026.2 Noturno**
 - Data de realização: **04/11/2026**
-- Integrantes e contribuições (se em equipe): **Atividade individual; confirmar se houve participação de equipe**
+- Integrantes e contribuições (se em equipe): **Individual**
 
 ## Situação-problema
 
@@ -52,7 +52,7 @@ Uma biblioteca universitária enfrenta filas em horários específicos e baixa u
 
 | Integrante | Papel | Contribuição |
 | --- | --- | --- |
-| Raquel Caetano Nascimento | Elaboração da proposta (confirmar equipe) | Delimitação, perguntas de negócio, dados, abordagem e cuidados éticos. |
+| Raquel Caetano Nascimento | Elaboração da proposta | Delimitação, perguntas de negócio, dados, abordagem e cuidados éticos. |
 
 ## Conclusão da equipe
 
