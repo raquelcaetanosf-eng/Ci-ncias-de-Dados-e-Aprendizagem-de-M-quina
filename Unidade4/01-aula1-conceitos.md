@@ -9,9 +9,9 @@ Ciência de Dados e Aprendizado de Máquina · Sistemas de Informação · 2026.
 ## Identificação
 
 - Estudante ou equipe: **Raquel Caetano Nascimento**
-- Turma: **Sistemas de Informação — 2026.2 (confirmar turma específica)**
-- Data de realização: **04/11/2026**
-- Integrantes e contribuições (se em equipe): **Atividade individual; confirmar se houve participação de equipe**
+- Turma: **Sistemas de Informação — 2026.2 Noturno**
+- Data de realização: **28/10/2026**
+- Integrantes e contribuições (se em equipe): **Individual**
 
 ## Objetivos
 
