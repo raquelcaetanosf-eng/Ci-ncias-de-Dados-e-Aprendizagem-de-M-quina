@@ -10,7 +10,7 @@ Ciência de Dados e Aprendizado de Máquina · Sistemas de Informação · 2026.
 
 - Estudante ou equipe: **Raquel Caetano Nascimento**
 - Turma: **Sistemas de Informação — 2026.2 Noturno**
-- Data de realização: **04/11/2026**
+- Data de realização: **28/10/2026**
 - Integrantes e contribuições (se em equipe): **Individual**
 
 ## Situação-problema
