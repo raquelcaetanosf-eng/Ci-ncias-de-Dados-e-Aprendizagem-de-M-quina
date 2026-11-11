@@ -1,6 +1,6 @@
 
 metodologia: https://www.ibm.com/docs/pt-br/SS3RA7_18.5.0/nl/pt/BR/pdf/ModelerCRISPDM.pdf
 
-1. Definição do negocio 28/10: Violência Domestica Pergunta: Quais são os maiores agressores de mulheres? 
+1. Definição do negocio 28/10: Analisar os lucros do Burger King o ano de 2025 
 
-Referências: BIANCHINI, Alice. Quem é o agressor da mulher brasileira? Com a palavra, a vítima. Jusbrasil, [s. l.], [s. d.]. Disponível em: https://www.jusbrasil.com.br/artigos/quem-e-o-agressor-da-mulher-brasileira-com-a-palavra-a-vitima/121814054. Acesso em: 28 out. 2026.
+Referências:
