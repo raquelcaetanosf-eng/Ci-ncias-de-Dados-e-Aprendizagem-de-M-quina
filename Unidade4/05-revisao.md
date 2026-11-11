@@ -1,5 +1,4 @@
-[05-revisao.md](https://github.com/user-attachments/files/34397303/05-revisao.md)
-<img src="assets/logo-udf.jpg" alt="UDF Centro Universitário" width="230">
+
 
 **Profa. Kadidja Valéria | UDF**  
 Ciência de Dados e Aprendizado de Máquina · Sistemas de Informação · 2026.2
