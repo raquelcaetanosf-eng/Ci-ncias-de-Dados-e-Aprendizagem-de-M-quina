@@ -1,4 +1,3 @@
-[Fase_2_Entendimento_dos_Dados_CRISP_DM.md](https://github.com/user-attachments/files/34720133/Fase_2_Entendimento_dos_Dados_CRISP_DM.md)
 # Fase 2 — Entendimento dos Dados (CRISP-DM)
 
 **Projeto:** Análise dos casos de violência doméstica no Distrito Federal  
