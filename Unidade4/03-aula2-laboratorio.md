@@ -1,5 +1,4 @@
-[03-aula2-laboratorio.md](https://github.com/user-attachments/files/34397242/03-aula2-laboratorio.md)
-<img src="assets/logo-udf.jpg" alt="UDF Centro Universitário" width="230">
+
 
 **Profa. Kadidja Valéria | UDF**  
 Ciência de Dados e Aprendizado de Máquina · Sistemas de Informação · 2026.2
