@@ -1,5 +1,4 @@
-[04-pbl-permanencia.md](https://github.com/user-attachments/files/34397279/04-pbl-permanencia.md)
-<img src="assets/logo-udf.jpg" alt="UDF Centro Universitário" width="230">
+
 
 **Profa. Kadidja Valéria | UDF**  
 Ciência de Dados e Aprendizado de Máquina · Sistemas de Informação · 2026.2
